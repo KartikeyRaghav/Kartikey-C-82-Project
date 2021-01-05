@@ -45,7 +45,7 @@ export default class HomeScreen extends Component {
                     <TouchableOpacity style={styles.button} onPress={() => {
                         this.props.navigation.navigate("UserDetails", { "details": item })
                     }}>
-                        <Text style={{ color: '#ffff' }}>View</Text>
+                        <Text style={{ color: '#ffff' }}>Exchange</Text>
                     </TouchableOpacity>
                 }
                 bottomDivider
